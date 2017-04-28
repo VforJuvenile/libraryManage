@@ -1,0 +1,13 @@
+eclipse.preferences.version=1
+encoding//src/main/java=UTF-8
+encoding//src/main/resources=UTF-8
+encoding//src/main/resources/templates/bookAdd.ftl=UTF-8
+encoding//src/main/resources/templates/bookInfo.ftl=UTF-8
+encoding//src/main/resources/templates/bookList.ftl=UTF-8
+encoding//src/main/resources/templates/bookUpdate.ftl=UTF-8
+encoding//src/main/resources/templates/common/footer.ftl=UTF-8
+encoding//src/main/resources/templates/common/header.ftl=UTF-8
+encoding//src/main/resources/templates/common/layerInfo.ftl=UTF-8
+encoding//src/main/resources/templates/index.ftl=UTF-8
+encoding//src/test/java=UTF-8
+encoding/<project>=UTF-8

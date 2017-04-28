@@ -1,0 +1,54 @@
+server: 
+  port: 9090
+
+spring: 
+  datasource: 
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/library?useUnicode=true&characterEncoding=utf-8
+    username: root
+    password: 123456
+  jpa: 
+    generate-ddl: true
+    hibernate: 
+      ddl-auto: update
+#  profiles:    -- 指定启动环境
+#    active: dev
+
+#   properties: 
+#     format_sql: true   -- 格式化sql语句
+#   show-sql: true       -- 显示sql语句
+#    initialSize: 5
+#    minIdle: 5
+#    maxActive: 20
+#    maxWait: 60000
+#    timeBetweenEvictionRunsMillis: 60000
+#    validationQuery: SELECT 1
+#    testWhileIdle: true
+#    testOnBorrow: false
+#    testOnReturn: false
+#    poolPreparedStatements: true
+#    maxPoolPreparedStatementPerConnectionSize: 20
+#    filters: stat
+#    connectionProperties: druid.stat.mergeSql=true;druid.stat.slowSqlMillis=5000
+
+# FREEMARKER (FreeMarkerAutoConfiguration)
+  freemarker: 
+    allow-request-override: false
+    allow-session-override: false
+    cache: false    # 控制应用重启
+    content-type: text/html
+    charset: UTF-8
+    template-loader-path: classpath:/templates/     
+    suffix: .ftl
+    check-template-location: true
+    enabled: true
+    expose-request-attributes: false
+    expose-session-attributes: false
+    expose-spring-macro-helpers: true
+    prefer-file-system-access: true
+    settings: 
+      template_update_delay: 0    # 按时检查模板更新，默认为5秒
+      default_encoding: UTF-8
+      output_encoding: UTF-8
+      classic_compatible: true
+#     order: 1

@@ -1,0 +1,19 @@
+${AnsiColor.BRIGHT_BLUE}
+            .----..
+         _.''__   '`. 
+     .--(#)(##)---/#\
+   .' @          /###\		
+   :         ,   #####
+    `-..__.-' _.-\###/  
+          `;_:    `"'
+        .'"""""`. 				
+       /, 史卢比 ,\\		
+      //  很穷!  \\
+      `-._______.-'			
+      ___`. | .'___ 
+     (______|______)	
+             
+${AnsiColor.BRIGHT_RED}
+Application Version: ${application.version}${application.formatted-version}
+Spring Boot Version: ${spring-boot.version}${spring-boot.formatted-version}
+
